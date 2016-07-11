@@ -1,7 +1,7 @@
 ﻿# Google-Calendar
 
 
-Clone the repo or download the zip. then follow these steps.
+Clone the repo or download the zip, then follow these steps.
 
 1. Start an instance of mongodb on port 27017 (Yes! the port has to be 27017 because i made it that way).
 2. Browse to the repository using you terminal. and run the following commands:
