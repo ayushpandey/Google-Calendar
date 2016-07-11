@@ -1,4 +1,4 @@
-﻿# Google-Calendar
+﻿# Google-Calendar :shipit:
 
 
 Clone the repo or download the zip, then follow these steps.
