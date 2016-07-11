@@ -1,0 +1,16 @@
+
+<% if ( locals.data) { %>
+<% for(i=0;i<data.items.length;i++) { %>
+<hr>
+<%=JSON.stringify(data.items[i].created).substr(1,10)%>
+<br>
+<br>
+<%=JSON.stringify(data.items[i].summary).substr(1,data.items[i].summary.length)%>
+<br>
+<br>
+<%=JSON.stringify(data.items[i].description)%>
+<br>
+
+
+<% } %>
+<% } %>

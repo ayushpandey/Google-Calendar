@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        var stdate="1700-01-01";
+        var enddate=new Date().toISOString().substr(0,10);
+        localStorage.setItem('stdate',stdate);
+        localStorage.setItem('enddate',enddate);
+
+        function filter(){
+
+            console.log(stdate+' '+enddate);
+            stdate= document.getElementById('stdate').value;
+            enddate= document.getElementById('enddate').value;
+        }
+    </script>
+</head>
+
+<body>
+
+<form >
+    Start Date:
+    <input type="date" class="form-control" placeholder="Start date" value="" id="stdate" required="required">
+    <br>
+    <br>
+    End Date:
+    <input type="date" placeholder="End date" id="enddate" required="required">
+    <br>
+    <br>
+    <button type="submit" onclick="filter()"> Filter Events
+    </button>
+</form>
+
+    <div id="demo">
+        <% include events.ejs%>
+
+    </div>
+
+
+
+
+</body>
+</html>
