@@ -1,4 +1,4 @@
-﻿# Google-Calendar :shipit:
+# Google-Calendar :shipit:
 
 
 Clone the repo or download the zip, then follow these steps.
@@ -11,5 +11,5 @@ Clone the repo or download the zip, then follow these steps.
 
 
 3. If everything goes well, you will see a message telling you that it connected to the database.
-4. Go ahead and open your Web-Browser and goto "localhost:3000".(Ofcourse without he quotes).
+4. Go ahead and open your Web-Browser and goto "localhost:3000".(Ofcourse without the quotes).
 5. That is all......
